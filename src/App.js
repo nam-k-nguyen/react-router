@@ -16,6 +16,11 @@ function App() {
         <Route path='/gallery/*' element={<GalleryRoutes />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
+      <Routes >
+        <Route path='/' element={''} />
+        <Route path='/gallery' element={<GalleryFooter />} />
+        <Route path='/gallery/:id/:name' element={<GalleryFooter />} />
+      </Routes>
     </>
   );
 }
