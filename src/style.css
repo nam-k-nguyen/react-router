@@ -1,1 +1,8 @@
 
+/* NOT FOUND PAGE  */
+
+.not_found_container {
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
