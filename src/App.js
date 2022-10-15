@@ -6,10 +6,12 @@ import GalleryRoutes from "./components/GalleryRoutes";
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<Home />}></Route>
-      <Route path='/about' element={<About />}></Route>
-    </Routes>
+    <>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
+    </>
   );
 }
 
