@@ -1,6 +1,8 @@
-import { Routes, Route } from "react-router-dom";
-import Home from './Home'
-import About from './About'
+import { Routes, Route, NavLink } from "react-router-dom";
+import Home from './components/Home'
+import NotFound from "./components/NotFound";
+import GalleryFooter from "./components/GalleryFooter";
+import GalleryRoutes from "./components/GalleryRoutes";
 
 function App() {
   return (
